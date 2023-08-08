@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>lrgroup</title>
+</head>
+    <body>
+
+        <!-- HEADER  -->
+
+        <header class="header row border-bottom bg-danger w-auto">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <a class="navbar-brand w-25" href="../index.html"><img src="../assets/img/logo-transpatente.png" alt="logo" class="header__logo w-75" ></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  w-75" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 fs-5 d-flex justify-content-evenly w-75">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./recursos-humanos.html">Recursos Humanos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Asesoramiento
+                        </a>
+                        <ul class="dropdown-menu fs-5">
+                        <li><a class="dropdown-item" href="./Juridico.html">Juridico</a></li>
+                        <li><a class="dropdown-item" href="./impositivo.html">Impositivo</a></li>
+                        </ul>
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./contactanos.html">Contactanos</a>
+                        </li>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header> 
+
+        <!-- MAIN  -->
+
+        <main class="w-auto">
+            <h1 class="titulo mt-5">Contactanos</h1>
+
+        <!-- FORMULARIO  -->
+
+            <form class="row g-3 m-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Avellaneda 1234">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Dirección 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, recidencia etc.">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Provincia</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Elige...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Código postal</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Verificame
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-color">Ingresar</button>
+                </div>
+              </form>
+        </main>
+
+        <!-- FOOTER  -->
+
+        <footer class="footer container-fluid row footer w-auto border-top">
+            <div class="col-6 col-md-4 m-auto d-flex justify-content-center">
+              <ul class="footer__list">
+               <li><a class="nav-link" href="../index.html">LR Group Consultora</a></li>
+               <li><a class="nav-link" href="../index.html">Nosortros</a></li>
+               <li><a class="nav-link" href="./recursos-humanos.html">Recursos Humanos</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 m-auto d-flex justify-content-center">
+              <ul class="footer__list">
+                <li><a class="nav-link" href="./impositivo.html">Asesoramiento Impositivo</a></li>
+                <li><a class="nav-link" href="./Juridico.html">Asesoramiento Juridico</a></li>
+                <li><a class="nav-link" href="./contactanos.html">Contactanos</a></li>
+               </ul>
+            </div>    
+            <div class="col-12 col-md-4 container-fluid row m-auto">
+              <a class="col-3" href="https://www.facebook.com" target="_blank"><img class="w-100 redes p-xxl-1 d-flex m-auto" src="../assets/img/facebook.png"></a>
+              <a class="col-3" href="https://www.instagram.com" target="_blank"><img class="w-100 redes p-xxl-1 d-flex m-auto" src="../assets/img/instagram.png"></a>
+              <a class="col-3" href="https://www.youtube.com" target="_blank"><img class="w-100 redes p-xxl-1 d-flex m-auto" src="../assets/img/youtube.png"></a>
+              <a class="col-3" href="https://www.spotify.com" target="_blank"><img class="w-100 redes p-xxl-1 d-flex m-auto" src="../assets/img/spotify.png"></a>
+            </div>
+          </footer>
+        <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+
+/* ESTILOS HEADER  */
+
+.header {
+    width: 100% !important;
+}
+.header__logo {
+    min-width: 200px;
+}
+.listNav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link {
+    color:rgb(132, 0, 255);
+}
+.listNav__link {
+    text-decoration: none;
+}
+.li {
+    padding-right: 30px; 
+}
+
+/* ESTILOS MAIN */
+
+.main {
+    background-image: url(../assets/img/reunion-para-slider.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main__titulo {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.titulo {
+    font-size: 4em;
+    color: rgba(120, 70, 212, 0.726);
+}
+.subTitulo{
+    font-size: 2.5em;
+    color: rgb(187, 106, 0);
+}
+.h3 {
+    font-size: 2em;
+    font-weight: 400;
+}
+.parrafoNosotros {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.btn-color {
+    background-color: rgba(132, 0, 255, 0.5);
+}
+.main__recursos {
+    background-color: rgb(231, 226, 226)
+}
+.main__juridico {
+    background-image: url(../assets/img/reunion-1.jpg);
+    background-size: cover;
+    min-height: 75vh;
+}
+.main__impositivo {
+    background-image: url(../assets/img/charlando-3.jpg);
+    background-size: cover;
+    min-height: 75vh;
+}
+.parrafo__juridico {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.parrafo__impositivo {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* ESTILOS FOOTER */
+
+.footer {
+    height: 25vh;
+    width: 100% !important;
+}
+.footer__list {
+    list-style-type: none;
+}
+.redes {
+    max-width: 50px;
+}
+/* MEDIAQUERY */
+
+@media (max-width: 1100px) {
+    
+    .navbar-nav {
+        width: 100% !important;
+    }
+  }
